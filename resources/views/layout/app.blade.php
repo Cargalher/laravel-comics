@@ -22,9 +22,9 @@
                     <img src="{{asset('img/dc-logo.png')}}" alt="logo">
                     
                     <nav class="menu">
-                        <a href="#">Character</a>
-                        <a href="#">Comics</a>
-                        <a href="#">Movies</a>
+                        <a href="{{ route('characters') }}">Character</a>
+                        <a href="{{ route('comics') }}">Comics</a>
+                        <a href="{{ route('movies') }}">Movies</a>
                         <a href="#">TV</a>
                         <a href="#">Games</a>
                         <a href="#">Collectibles</a>
@@ -40,13 +40,13 @@
         </header>
         <main id="site_main">
             @yield('content')
-            <section class="jumbotron">
+            <!-- <section class="jumbotron">
                    
             </section>
             <section class="card">
                 
             </section>
-            <section class="info_main"></section>
+            <section class="info_main"></section> -->
         </main>
         <footer id="site_footer" class="container">Footer content</footer>
           
