@@ -15,8 +15,8 @@
     <body>
         <header id="site_header">
             <div class="top_header" class="container">
-                    <span> DC POWER VISA</span>
-                    <span>ADDITIONAL DC SITES</span>
+                    <a href="#">DC Power℠ Visa®</a>
+                    <a href="#">Additional DC Sites ▼</a>
             </div>
             <div class="header_bottom" class="container">
                     <img src="{{asset('img/dc-logo.png')}}" alt="logo">

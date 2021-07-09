@@ -16,6 +16,12 @@
   color: white;
   padding: 20px;
 }
+#site_header .top_header a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  padding: 0.5rem 1rem;
+}
 #site_header .header_bottom {
   display: flex;
   justify-content: center;
@@ -37,7 +43,7 @@
   padding: 0.5rem 1rem;
   font-weight: 600;
 }
-#site_header a:hover {
+#site_header .menu a:hover {
   color: #0282F9;
   border-bottom: 3px solid #0282F9;
 }
