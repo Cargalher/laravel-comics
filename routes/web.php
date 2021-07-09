@@ -14,12 +14,12 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-
-
     return view('home');
 })->name('home');   
 
 Route::get('/comics', function () {
+
+
     $comics = config('comic.data');
     return view('comics', compact('comics'));  
     })->name('comics');
@@ -34,3 +34,44 @@ Route::get('/movies', function () {
        
     return view('movies');  
     })->name('movies');
+
+
+
+
+
+
+// Route::get('/tv', function () {
+       
+//     return view('tv');  
+//     })->name('tv');
+
+// Route::get('/movies', function () {
+       
+//     return view('movies');  
+//      })->name('movies');
+
+// Route::get('/movies', function () {
+       
+//     return view('movies');  
+//     })->name('movies');
+
+// Route::get('/movies', function () {
+       
+//     return view('movies');  
+//     })->name('movies');
+
+
+// Route::get('/movies', function () {
+       
+//     return view('movies');  
+//     })->name('movies');
+
+// Route::get('/movies', function () {
+       
+//     return view('movies');  
+//     })->name('movies');
+
+// Route::get('/movies', function () {
+       
+//     return view('movies');  
+//     })->name('movies');

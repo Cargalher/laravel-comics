@@ -52,3 +52,7 @@
   background-image: url("../img/jumbotron.jpg");
   height: 400px;
 }
+#site_main .comics {
+  display: flex;
+  justify-content: center;
+}
