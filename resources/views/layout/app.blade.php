@@ -41,9 +41,11 @@
         <main id="site_main">
             @yield('content')
             <section class="jumbotron">
-                    this is the jumbotron part
+                   
             </section>
-            <section class="card"></section>
+            <section class="card">
+                
+            </section>
             <section class="info_main"></section>
         </main>
         <footer id="site_footer" class="container">Footer content</footer>
