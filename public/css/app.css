@@ -50,6 +50,12 @@
 
 #site_footer .top_footer {
   background-color: #0282F9;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+}
+#site_footer .top_footer img {
+  height: 20px;
 }
 
 #site_main .jumbotron {
@@ -62,4 +68,5 @@
 }
 #site_main .comics .comic_cards {
   width: calc(100% / 6 - 1rem);
+  margin: 0.5rem;
 }

@@ -34,7 +34,7 @@
                         <a href="#">Shop</a>
                     </nav>
                     <div>
-                        
+
                     </div>
             </div>
                 
@@ -47,8 +47,27 @@
         </main>
         <footer id="site_footer">
            <section class="top_footer">
-                <img src="{{asset('img/buy-comics-digital-comics.png')}}" alt="logo">
-                <span>Digital Comics</span>
+               <div class="top_footer_content container">
+                   <img src="{{asset('img/buy-comics-digital-comics.png')}}" alt="logo">
+                    <span>Digital Comics</span>
+               </div>
+               <div class="top_footer_content container">
+                   <img src="{{asset('img/buy-comics-digital-comics.png')}}" alt="logo">
+                    <span>Digital Comics</span>
+               </div>
+               <div class="top_footer_content container">
+                   <img src="{{asset('img/buy-comics-digital-comics.png')}}" alt="logo">
+                    <span>Digital Comics</span>
+               </div>
+               <div class="top_footer_content container">
+                   <img src="{{asset('img/buy-comics-digital-comics.png')}}" alt="logo">
+                    <span>Digital Comics</span>
+               </div>
+               <div class="top_footer_content container">
+                   <img src="{{asset('img/buy-comics-digital-comics.png')}}" alt="logo">
+                    <span>Digital Comics</span>
+               </div>
+                
            </section>
            <section class="middle_footer"></section>
            <section class="bottom_footer"></section>
