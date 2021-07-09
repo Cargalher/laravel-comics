@@ -33,9 +33,9 @@
                         <a href="{{ route('news') }}" class="{{ Route::currentRouteName() === 'news' ? 'active' : '' }}">News</a>
                         <a href="{{ route('shop') }}" class="{{ Route::currentRouteName() === 'shop' ? 'active' : '' }}">Shop</a>
                     </nav>
-                    <div>
-
-                    </div>
+            <div class="jumbotron">
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea amet nostrum quis et, quaerat nisi, dolorem alias officiis voluptates, atque saepe omnis asperiores doloremque earum commodi beatae vero ipsa provident enim porro? Voluptatum accusamus explicabo sint nulla impedit aliquid iure consectetur quas, minima inventore. Quae voluptatibus architecto dolor qui iure placeat, a aperiam temporibus exercitationem dicta iste excepturi obcaecati veniam. Cumque cum aliquam quis, a veritatis quibusdam molestias mollitia dolore sequi deserunt perferendis quo similique suscipit magnam provident tempore iure nisi autem animi repellat, tenetur nostrum voluptatem. Quas, quis eum. Non totam ipsam alias recusandae repellat, quidem ab animi tenetur et sint modi! Repudiandae, atque voluptatem? Quae quidem assumenda autem dolorum sunt quis quam nihil! Doloremque, id. Similique soluta exercitationem minus aliquam veniam repellat, numquam eaque sit fugiat tempora facilis perspiciatis at ab eius placeat! Voluptas dolore saepe reprehenderit ullam dolorem, suscipit aliquam debitis laudantium. Distinctio voluptas incidunt at qui doloribus ullam sequi soluta illo unde dolores. Neque molestiae numquam ad? Corrupti eum earum excepturi enim. Soluta id quam illum, eos reprehenderit repudiandae dicta magnam perferendis ullam temporibus voluptatibus. Eligendi harum temporibus nulla tempora. Obcaecati, incidunt! Autem blanditiis suscipit ex quis nisi dolores qui nesciunt modi ipsam, voluptatem id magnam!
+            </div>
             </div>
                 
 

@@ -32,19 +32,22 @@
   height: 60px;
   margin-right: 30px;
 }
-#site_header .menu {
+#site_header .header_bottom .menu {
   display: flex;
   justify-content: center;
 }
-#site_header .menu a {
+#site_header .header_bottom .menu a {
   text-decoration: none;
   text-transform: uppercase;
   color: #333;
   padding: 0.5rem 1rem;
   font-weight: 600;
 }
-#site_header .menu a.active {
+#site_header .header_bottom .menu a.active {
   border-bottom: 3px solid #0282F9;
+}
+#site_header .jumbotron {
+  background-image: url("../img/jumbotron.jpg");
 }
 
 #site_footer .top_footer {
