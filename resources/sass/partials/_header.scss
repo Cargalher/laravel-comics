@@ -1,0 +1,38 @@
+#site_header{
+    .top_header{
+        background-color: $brand_color;
+        display: flex;
+        justify-content: flex-end;
+        color: white;
+        padding: 20px;
+    }
+    .header_bottom{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+    }
+    img{
+        height: 60px;
+        margin-right: 30px;
+    }
+    .menu{
+        display: flex;
+        justify-content: center;
+        a{
+            text-decoration: none;
+            text-transform: uppercase;
+            color: #333;
+            padding: 0.5rem 1rem;
+            font-weight: 600;
+
+            
+        }
+     
+    }
+     a:hover{
+                color: $brand-color;
+                border-bottom: 3px solid $brand-color;
+            }  
+}
+

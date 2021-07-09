@@ -1,0 +1,15 @@
+@import 'partials/variables';
+@import 'partials/common';
+@import 'partials/header';
+
+
+
+// main
+
+
+#site_main{
+    .jumbotron{
+        background-image: url('../img/jumbotron.jpg');
+        height: 400px;
+    }
+}
