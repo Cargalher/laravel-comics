@@ -8,6 +8,8 @@
 
 
 #site_main{
+    background-color: $bg_comics;
+    padding-bottom: 100px;
     .jumbotron{
         background-image: url('../img/jumbotron.jpg');
         height: 400px;
@@ -18,6 +20,7 @@
         .comic_cards{
             width: calc(100% / 6 - 1rem);
             margin: 0.5rem;
+            color: white;
             img{
                 width: 100%;
                 height: 100%;

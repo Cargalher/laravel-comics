@@ -3,7 +3,6 @@
 @section('title', 'Comics Page DC Comics')
 
 @section('content')
-<h1>Comics page</h1>
 
 
 <section class="container">
