@@ -18,20 +18,20 @@
                     <a href="#">DC Power℠ Visa®</a>
                     <a href="#">Additional DC Sites ▼</a>
             </div>
-            <div class="header_bottom" class="container">
+            <div class="header_bottom">
                     <img src="{{asset('img/dc-logo.png')}}" alt="logo">
                     
                     <nav class="menu">
-                        <a href="{{ route('characters') }}">Character</a>
-                        <a href="{{ route('comics') }}">Comics</a>
-                        <a href="{{ route('movies') }}">Movies</a>
-                        <a href="#">TV</a>
-                        <a href="#">Games</a>
-                        <a href="#">Collectibles</a>
-                        <a href="#">Videos</a>
-                        <a href="#">Fans</a>
-                        <a href="#">News</a>
-                        <a href="#">Shop</a>
+                        <a href="{{ route('characters') }}" class="{{ Route::currentRouteName() === 'characters' ? 'active' : '' }}">Character</a>
+                        <a href="{{ route('comics') }}" class="{{ Route::currentRouteName() === 'comics' ? 'active' : '' }}">Comics</a>
+                        <a href="{{ route('movies') }}" class="{{ Route::currentRouteName() === 'movies' ? 'active' : '' }}">Movies</a>
+                        <a href="{{ route('tv') }}" class="{{ Route::currentRouteName() === 'tv' ? 'active' : '' }}">TV</a>
+                        <a href="{{ route('games') }}" class="{{ Route::currentRouteName() === 'games' ? 'active' : '' }}">Games</a>
+                        <a href="{{ route('collectibles') }}" class="{{ Route::currentRouteName() === 'collectibles' ? 'active' : '' }}">Collectibles</a>
+                        <a href="{{ route('videos') }}" class="{{ Route::currentRouteName() === 'videos' ? 'active' : '' }}">Videos</a>
+                        <a href="{{ route('fans') }}" class="{{ Route::currentRouteName() === 'fans' ? 'active' : '' }}">Fans</a>
+                        <a href="{{ route('news') }}" class="{{ Route::currentRouteName() === 'news' ? 'active' : '' }}">News</a>
+                        <a href="{{ route('shop') }}" class="{{ Route::currentRouteName() === 'shop' ? 'active' : '' }}">Shop</a>
                     </nav>
                     <div>
 
@@ -52,19 +52,19 @@
                     <span>Digital Comics</span>
                </div>
                <div class="top_footer_content container">
-                   <img src="{{asset('img/buy-comics-digital-comics.png')}}" alt="logo">
+                   <img src="{{asset('img/buy-comics-merchandise.png')}}" alt="logo">
                     <span>Digital Comics</span>
                </div>
                <div class="top_footer_content container">
-                   <img src="{{asset('img/buy-comics-digital-comics.png')}}" alt="logo">
+                   <img src="{{asset('img/buy-comics-subscriptions.png')}}" alt="logo">
                     <span>Digital Comics</span>
                </div>
                <div class="top_footer_content container">
-                   <img src="{{asset('img/buy-comics-digital-comics.png')}}" alt="logo">
+                   <img src="{{asset('img/buy-comics-shop-locator.png')}}" alt="logo">
                     <span>Digital Comics</span>
                </div>
                <div class="top_footer_content container">
-                   <img src="{{asset('img/buy-comics-digital-comics.png')}}" alt="logo">
+                   <img src="{{asset('img/buy-dc-power-visa.svg')}}" alt="logo">
                     <span>Digital Comics</span>
                </div>
                 

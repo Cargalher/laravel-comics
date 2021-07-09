@@ -4,8 +4,15 @@
     padding: 40px;
     display: flex;
     justify-content: center;
+    color: white;
         img{
-            height: 20px;
+            height: 26px;
+            margin-right: 10px;
+        }
+        .top_footer_content{
+            display: flex;
+            justify-content: center;
+            align-items: center;
         }
 }
 }

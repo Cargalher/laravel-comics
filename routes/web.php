@@ -40,38 +40,38 @@ Route::get('/movies', function () {
 
 
 
-// Route::get('/tv', function () {
+Route::get('/tv', function () {
        
-//     return view('tv');  
-//     })->name('tv');
+    return view('tv');  
+    })->name('tv');
 
-// Route::get('/movies', function () {
+Route::get('/games', function () {
        
-//     return view('movies');  
-//      })->name('movies');
+    return view('games');  
+     })->name('games');
 
-// Route::get('/movies', function () {
+Route::get('/collectibles', function () {
        
-//     return view('movies');  
-//     })->name('movies');
+    return view('collectibles');  
+    })->name('collectibles');
 
-// Route::get('/movies', function () {
+Route::get('/videos', function () {
        
-//     return view('movies');  
-//     })->name('movies');
+    return view('videos');  
+    })->name('videos');
 
 
-// Route::get('/movies', function () {
+Route::get('/fans', function () {
        
-//     return view('movies');  
-//     })->name('movies');
+    return view('fans');  
+    })->name('fans');
 
-// Route::get('/movies', function () {
+Route::get('/news', function () {
        
-//     return view('movies');  
-//     })->name('movies');
+    return view('news');  
+    })->name('news');
 
-// Route::get('/movies', function () {
+Route::get('/shop', function () {
        
-//     return view('movies');  
-//     })->name('movies');
+    return view('shop');  
+    })->name('shop');
