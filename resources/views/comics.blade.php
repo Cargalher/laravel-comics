@@ -5,7 +5,7 @@
 @section('content')
 
 
-<section class="container">
+<section class="container bg_comics">
     <div class="comics">
         @foreach($comics as $comic)
         <div class="comic_cards">
@@ -14,6 +14,10 @@
         </div>
         @endforeach
     </div>
+    <div class="button">
+        <button>Load More</button>
+    </div>
+    
  
 </section>
 

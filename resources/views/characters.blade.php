@@ -4,5 +4,5 @@
 
 @section('content')
 
-<h1>Characters Page</h1>
+
 @endsection

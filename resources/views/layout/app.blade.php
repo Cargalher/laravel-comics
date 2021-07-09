@@ -8,7 +8,8 @@
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;600&display=swap" rel="stylesheet">
-
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css"
+        integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
         <!-- Styles -->
         <link rel="stylesheet" href="{{asset('css/app.css')}}">
     </head>
@@ -18,8 +19,8 @@
                     <a href="#">DC Power℠ Visa®</a>
                     <a href="#">Additional DC Sites ▼</a>
             </div>
-            <div class="header_bottom">
-                    <img src="{{asset('img/dc-logo.png')}}" alt="logo">
+            <div class="header_bottom container">
+                <img src="{{asset('img/dc-logo.png')}}" alt="logo">
                     
                     <nav class="menu">
                         <a href="{{ route('characters') }}" class="{{ Route::currentRouteName() === 'characters' ? 'active' : '' }}">Character</a>
@@ -33,10 +34,11 @@
                         <a href="{{ route('news') }}" class="{{ Route::currentRouteName() === 'news' ? 'active' : '' }}">News</a>
                         <a href="{{ route('shop') }}" class="{{ Route::currentRouteName() === 'shop' ? 'active' : '' }}">Shop</a>
                     </nav>
-            <div class="jumbotron">
-    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea amet nostrum quis et, quaerat nisi, dolorem alias officiis voluptates, atque saepe omnis asperiores doloremque earum commodi beatae vero ipsa provident enim porro? Voluptatum accusamus explicabo sint nulla impedit aliquid iure consectetur quas, minima inventore. Quae voluptatibus architecto dolor qui iure placeat, a aperiam temporibus exercitationem dicta iste excepturi obcaecati veniam. Cumque cum aliquam quis, a veritatis quibusdam molestias mollitia dolore sequi deserunt perferendis quo similique suscipit magnam provident tempore iure nisi autem animi repellat, tenetur nostrum voluptatem. Quas, quis eum. Non totam ipsam alias recusandae repellat, quidem ab animi tenetur et sint modi! Repudiandae, atque voluptatem? Quae quidem assumenda autem dolorum sunt quis quam nihil! Doloremque, id. Similique soluta exercitationem minus aliquam veniam repellat, numquam eaque sit fugiat tempora facilis perspiciatis at ab eius placeat! Voluptas dolore saepe reprehenderit ullam dolorem, suscipit aliquam debitis laudantium. Distinctio voluptas incidunt at qui doloribus ullam sequi soluta illo unde dolores. Neque molestiae numquam ad? Corrupti eum earum excepturi enim. Soluta id quam illum, eos reprehenderit repudiandae dicta magnam perferendis ullam temporibus voluptatibus. Eligendi harum temporibus nulla tempora. Obcaecati, incidunt! Autem blanditiis suscipit ex quis nisi dolores qui nesciunt modi ipsam, voluptatem id magnam!
+            </div>        
+            <div class="jumbotron" style="height:460px;">
+    
             </div>
-            </div>
+           
                 
 
             
@@ -68,9 +70,83 @@
                     <span>Digital Comics</span>
                </div>
                 
-           </section>
-           <section class="middle_footer"></section>
-           <section class="bottom_footer"></section>
+            </section>
+            <section class="middle_footer" >
+                <div class="container">
+                    <div class="menu_col ">
+                        <div>
+                            <h5>Dc comics</h5>
+                            <ul>
+                                <li>Characters</li>
+                                <li>Comics</li>
+                                <li>Movies</li>
+                                <li>TV</li>
+                                <li>Games</li>
+                                <li>Videos</li>
+                                <li>News</li>
+                            </ul>
+                            <h5>Shop</h5>
+                            <ul>
+                                <li>Shop DC</li>
+                                <li>Shop DC Collectibles</li>
+                            </ul>
+                        
+                        </div>
+
+                        <div>
+                            <h5>Dc</h5>
+                            <ul>
+                                <li>Terms of use</li>
+                                <li>Privacy Policy(New)</li>
+                                <li>Ad Choices</li>
+                                <li>Advertising</li>
+                                <li>Jobs</li>
+                                <li>Subscriptions</li>
+                                <li>Talent Workshops</li>
+                                <li>CPSC Certificates</li>
+                                <li>Ratings</li>
+                                <li>Shop Help</li>
+                                <li>Contact us</li>
+                            </ul>
+                            
+                                
+                        </div>
+
+                        <div>
+                        <h5>Sites</h5>
+                        <ul>
+                                <li>DC</li>
+                                <li>MAD Magazine</li>
+                                <li>DC Kids</li>
+                                <li>DC Universe</li>
+                                <li>DC Power Visa</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <p>All Site Content TM and <i class="far fa-copyright"></i> 2020 DC Entertainment, unless otherwise <a href="#">noted here</a>. All rigths reserved. <br><a href="#">Cookies Settings</a></p>
+                    <div class="big_logo">
+                        <img src="{{asset('img/dc-logo-bg.png')}}" style="height:365px;" alt="big logo">
+                    </div>
+                </div>
+                
+            </section>
+            <section class="bottom_footer">
+                <div class="container bottom_footer_display">
+                    <div>
+                        <button>Sign-up now</button>
+                    </div>
+                    <div>
+                        <ul>
+                            <li>Follow us</li>
+                            <li><i class="fab fa-facebook"></i></li>
+                            <li><i class="fab fa-twitter"></i></li>
+                            <li><i class="fab fa-youtube"></i></li>
+                            <li><i class="fab fa-pinterest"></i></li>
+                            <li><i class="fab fa-pinterest"></i></li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
         </footer>
           
     </body>
