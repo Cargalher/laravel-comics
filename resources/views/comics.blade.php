@@ -5,12 +5,20 @@
 @section('content')
 <h1>Comics page</h1>
 
-<section class="container">
-    
-    <div class="comics">
-        
+@foreach($comics as $comic)
+    <div class="comic">
+    <img src="{{$comic['thumb'] }}" alt="">
+        {{ $comic['series']}}
     </div>
-</section>
+
+@endforeach
+
+
+
+
+
+
+
 
 
 @endsection
