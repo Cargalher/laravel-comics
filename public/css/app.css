@@ -48,11 +48,18 @@
   border-bottom: 3px solid #0282F9;
 }
 
+#site_footer .top_footer {
+  background-color: #0282F9;
+}
+
 #site_main .jumbotron {
   background-image: url("../img/jumbotron.jpg");
   height: 400px;
 }
 #site_main .comics {
   display: flex;
-  justify-content: center;
+  flex-wrap: wrap;
+}
+#site_main .comics .comic_cards {
+  width: calc(100% / 6 - 1rem);
 }

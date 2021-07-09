@@ -1,7 +1,7 @@
 @import 'partials/variables';
 @import 'partials/common';
 @import 'partials/header';
-
+@import 'partials/footer';
 
 
 // main
@@ -14,8 +14,10 @@
     }
     .comics{
         display: flex;
-        justify-content: center;
-       
-        
+        flex-wrap: wrap;
+        .comic_cards{
+            width: calc(100% / 6 - 1rem);
+           
+        }
     }
 }

@@ -33,6 +33,9 @@
                         <a href="#">News</a>
                         <a href="#">Shop</a>
                     </nav>
+                    <div>
+                        
+                    </div>
             </div>
                 
 
@@ -40,15 +43,16 @@
         </header>
         <main id="site_main">
             @yield('content')
-            <!-- <section class="jumbotron">
-                   
-            </section>
-            <section class="card">
-                
-            </section>
-            <section class="info_main"></section> -->
+           
         </main>
-        <footer id="site_footer" class="container">Footer content</footer>
+        <footer id="site_footer">
+           <section class="top_footer">
+                <img src="{{asset('img/buy-comics-digital-comics.png')}}" alt="logo">
+                <span>Digital Comics</span>
+           </section>
+           <section class="middle_footer"></section>
+           <section class="bottom_footer"></section>
+        </footer>
           
     </body>
 </html>

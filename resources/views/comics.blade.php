@@ -6,21 +6,18 @@
 <h1>Comics page</h1>
 
 
-<section class="comics container">
-    @foreach($comics as $comic)
-        <div class="comic_cards container">
+<section class="container">
+    <div class="comics">
+        @foreach($comics as $comic)
+        <div class="comic_cards">
             <img src="{{$comic['thumb'] }}" alt="">
             {{ $comic['series']}}
         </div>
-    @endforeach
+        @endforeach
+    </div>
+ 
 </section>
 
 
-
-
-
-
-
-
-
 @endsection
+
