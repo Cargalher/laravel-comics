@@ -1,11 +1,12 @@
 #site_header{
     .top_header{
         background-color: $brand_color;
-        display: flex;
-        justify-content: flex-end;
         color: white;
         padding: 20px;
-        
+        .display_top_header{
+            display: flex;
+            justify-content: flex-end;
+        }
         a{
             text-decoration: none;
             text-transform: uppercase;
@@ -18,27 +19,44 @@
     .header_bottom{
         display: flex;
         align-items: center;
+        justify-content: right;
         padding: 20px;
-    }
-        img{
-            height: 60px;
-            margin-right: 30px;
-        }
-        .menu{
-            
-            a{
-                text-decoration: none;
-                text-transform: uppercase;
-                color: #333;
-                padding: 0.5rem 1rem;
-                font-weight: 600;
-                &.active{
-                    border-bottom: 3px solid $brand-color;
-                }
-            
+            img{
+                height: 60px;
+                margin-right: 30px;
             }
+            .menu{
+            
+                a{
+                    text-decoration: none;
+                    text-transform: uppercase;
+                    color: #333;
+                    padding: 0.5rem 1rem;
+                    font-weight: 600;
+                    &.active{
+                        border-bottom: 3px solid $brand-color;
+                    }
+                    i{
+                        color: $brand-color;
+                        font-size: 15px;
+                    }
+                }
     
-        }
+            }
+            
+            input{
+                border-bottom: 3px solid $brand-color;
+                border-top:none;
+                border-right:none;
+                border-left: none;
+                text-align: right;
+               
+               
+            }
+    }
+    
+       
+        
     
     .jumbotron{
         background-image: url('../img/jumbotron.jpg');

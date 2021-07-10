@@ -8,19 +8,19 @@
                </div>
                <div class="top_footer_content container">
                    <img src="{{asset('img/buy-comics-merchandise.png')}}" alt="logo">
-                    <span>Digital Comics</span>
+                    <span>DC Merchandise</span>
                </div>
                <div class="top_footer_content container">
                    <img src="{{asset('img/buy-comics-subscriptions.png')}}" alt="logo">
-                    <span>Digital Comics</span>
+                    <span>Subscription</span>
                </div>
                <div class="top_footer_content container">
                    <img src="{{asset('img/buy-comics-shop-locator.png')}}" alt="logo">
-                    <span>Digital Comics</span>
+                    <span>Comic Shop Locator</span>
                </div>
                <div class="top_footer_content container">
                    <img src="{{asset('img/buy-dc-power-visa.svg')}}" alt="logo">
-                    <span>Digital Comics</span>
+                    <span>DC Power Visa</span>
                </div>
                 
             </div>
@@ -90,13 +90,16 @@
 
             <!-- BOTTOM FOOTER -->
             <div class="bottom_footer">
-                <div class="container">
+                <div class="container bt_display">
+
                     <div class="footer_bottom_left">
-                        <a href="#" class="button">Sign-up</a>
+                        <button><a href="#">Sign-up</a></button>
                     </div>
+
                     <div class="footer_bottom_right">
 
                         <div class="social">
+                            
                             <h4>Follow us</h4>
                             <ul>
                                 <li>

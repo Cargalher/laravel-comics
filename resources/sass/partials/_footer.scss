@@ -62,17 +62,43 @@
     }
     .bottom_footer{
         background-color: $solid_bg_footer;
-        display: flex;
-        color: red;
-            .footer_bottom_left{
-                a{
-                    text-decoration: none;
-                    color: white;
-                }
+            .bt_display{
+                    display: flex;
+                    justify-content: space-between;
+                    text-align: center;
+                    .footer_bottom_left{
+               
+                        button{
+                            background-color: $solid_bg_footer;
+                            color:white;
+                            border: 1px solid $brand-color;
+                        }
+                        a{
+                            text-decoration: none;
+                            color: white;
+                            
+                        }
+                    }
+                    .footer_bottom_right{
+                        color: white;
+                        list-style-type: none;
+                        .social{
+                            display: flex;
+                            justify-content: space-around;
+                            ul{
+                                list-style-type: none;
+                                display: inline;
+                            }
+                            h4{
+                                color: $brand-color;
+                            }
+                            i{
+                                color: gray;
+                            }
+                        }   
+                    }
             }
-            .footer_bottom_right{
-                color: white;
-            }
+            
     }
 }
 
