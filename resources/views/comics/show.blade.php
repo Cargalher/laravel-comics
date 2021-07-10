@@ -1,1 +1,25 @@
-<h1>single card</h1>
+@extends('layout.app')
+
+@section('title', 'Comic Page DC Comics')
+
+@section('content')
+
+
+<section class="container bg_comics">
+    <div class="comics">
+        
+        <div class="comic_cards">
+            <img src="{{$comic['thumb'] }}" alt="">
+            {{ $comic['series']}}
+        </div>
+       
+    </div>
+    <div class="button">
+        <button>Load More</button>
+    </div>
+    
+ 
+</section>
+
+
+@endsection
