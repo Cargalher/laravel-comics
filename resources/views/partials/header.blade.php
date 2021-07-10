@@ -7,7 +7,7 @@
                 </div>
                     
             </div>
-            <div class="header_bottom container">
+            <div class="header_bottom ">
                 <img src="{{asset('img/dc-logo.png')}}" alt="logo">
                     
                 <nav class="menu">
@@ -21,6 +21,7 @@
                     <a href="{{ route('fans') }}" class="{{ Route::currentRouteName() === 'fans' ? 'active' : '' }}">Fans</a>
                     <a href="{{ route('news') }}" class="{{ Route::currentRouteName() === 'news' ? 'active' : '' }}">News</a>
                     <a href="{{ route('shop') }}" class="{{ Route::currentRouteName() === 'shop' ? 'active' : '' }}">Shop <i class="fas fa-sort-down"></i></a>
+                
                 </nav>
                 <div class="input_search">
                     <input type="search" name="" id="search_ip" placeholder="Search">
