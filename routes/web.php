@@ -32,9 +32,17 @@ Route::get('comics/{id}', function ($id) {
     // ddd($comics[$id]);
     // return "Show comic with id $id";
 
-    $comic = $comics[$id];
-    return view('comics.show', compact('comic'));
-});
+    
+    if(is_numeric($id) && $id < count($comics) && $id >= 0 ) {
+        $comic = $comics[$id];
+        return view('comics.show', compact('comic'));
+    }else{
+        abort(404);
+    }
+
+   
+    
+})->name('comic');
 
 
 
