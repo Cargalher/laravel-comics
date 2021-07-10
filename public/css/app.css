@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: sans-serif;
+}
+
 .container {
   width: 80%;
   margin: auto;
@@ -14,7 +18,7 @@
   color: white;
   padding: 20px;
 }
-#site_header .top_header .display_top_header {
+#site_header .top_header nav {
   display: flex;
   justify-content: flex-end;
 }
@@ -23,6 +27,11 @@
   text-transform: uppercase;
   color: white;
   padding: 0.5rem 1rem;
+  font-size: 12px;
+}
+#site_header .top_header a:hover {
+  text-decoration: underline;
+  cursor: pointer;
 }
 #site_header .header_bottom {
   display: flex;

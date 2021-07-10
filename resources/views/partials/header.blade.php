@@ -1,10 +1,10 @@
 <header id="site_header">
             
             <div class="top_header">
-                <div class="container display_top_header">
+                <nav class="container">
                     <a href="#">DC Power℠ Visa®</a>
                     <a  href="#">Additional DC Sites ▼</a>
-                </div>
+                </nav>
                     
             </div>
             <div class="header_bottom ">

@@ -3,7 +3,7 @@
         background-color: $brand_color;
         color: white;
         padding: 20px;
-        .display_top_header{
+        nav{
             display: flex;
             justify-content: flex-end;
         }
@@ -12,6 +12,11 @@
             text-transform: uppercase;
             color: white;
             padding: 0.5rem 1rem; 
+            font-size: 12px;
+        &:hover{
+            text-decoration: underline;
+            cursor: pointer;
+        }  
             
         }
     
