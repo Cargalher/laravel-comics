@@ -62,18 +62,17 @@
     }
     .bottom_footer{
         background-color: $solid_bg_footer;
-        .bottom_footer_display{
-            display: flex;
-            justify-content: space-between;
-                button{
-                    border:1px solid $brand-color;
+        display: flex;
+        color: red;
+            .footer_bottom_left{
+                a{
+                    text-decoration: none;
                     color: white;
-                    background-color: $solid_bg_footer;
                 }
-                ul{
-                    list-style-type: none;
-                    display: inline;
-                }
-        }
+            }
+            .footer_bottom_right{
+                color: white;
+            }
     }
 }
+
