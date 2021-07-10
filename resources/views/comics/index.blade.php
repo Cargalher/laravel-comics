@@ -7,10 +7,13 @@
 
 <section class="container bg_comics">
     <div class="comics">
-        @foreach($comics as $comic)
+        @foreach($comics as $index => $comic)
         <div class="comic_cards">
-            <img src="{{$comic['thumb'] }}" alt="">
-            {{ $comic['series']}}
+           
+            <a href="{{route('comic', ['id' => $index])}}">
+                <img src="{{$comic['thumb'] }}" alt="">
+                {{ $comic['series']}}
+            </a>
         </div>
         @endforeach
     </div>
