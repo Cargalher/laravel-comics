@@ -10,7 +10,9 @@
 
 @section('content')
 
-
+<div class="current">
+    <p>Current series</p>
+</div>
 <section class="container bg_comics">
     <div class="comics">
         @foreach($comics as $index => $comic)
