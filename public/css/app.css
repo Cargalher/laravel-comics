@@ -235,3 +235,21 @@ body {
   border: 1px solid gray;
   padding: 3px;
 }
+
+#site_main .bg_brand {
+  background-color: #0282F9;
+  height: 40px;
+}
+#site_main .show_bg {
+  background-color: white;
+}
+#site_main .comic_card_show {
+  position: relative;
+}
+#site_main .comic_card_show h2, #site_main .comic_card_show p {
+  color: black;
+}
+#site_main .comic_card_show .img_show {
+  position: absolute;
+  bottom: 68px;
+}

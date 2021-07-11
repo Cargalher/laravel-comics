@@ -1,0 +1,23 @@
+#site_main{
+    .bg_brand{
+        background-color: $brand-color;
+        height: 40px;
+    }
+    .show_bg{
+        background-color: white;
+        
+    }
+    .comic_card_show{
+        position: relative;
+        h2, p{
+            color:black;
+        }
+        .img_show{
+            position: absolute;
+            bottom: 68px;
+            
+            
+        }
+    }
+    
+}
