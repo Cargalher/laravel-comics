@@ -42,12 +42,12 @@
 <div class="artists">
         <div class="talent">
             <h3>Talent</h3>
-            <div class="border_tp">Art by: Artist Name from database </div> 
-            <div  class="border_tp">Writen by: Writers from database </div>
+            <div class="border_tp">Art by: <p style="color:#0282F9">Artist Name from database</p>  </div> 
+            <div  class="border_tp">Writen by:<p style="color:#0282F9"> Writers from database</p>  </div>
         </div>  
         <div class="specs">
             <h3>Specs</h3>
-            <div class="border_tp">Series: <span>{{$comic['series']}}</span></div> 
+            <div class="border_tp">Series: <span style="color: #0282F9; text-transform:uppercase">{{$comic['series']}}</span></div> 
             <div  class="border_tp">US.Price: <span>{{$comic['price']}}</span></div>
             <div class="border_tp">On Sale Date: <span>{{$comic['sale_date']}}</span></div>
         </div>  

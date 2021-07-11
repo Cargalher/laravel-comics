@@ -64,6 +64,12 @@ body {
 #site_header .header_menu nav .list_menu a:hover {
   border-bottom: 5px solid #0282F9;
 }
+#site_header .header_menu nav input {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 2px solid #0282F9;
+}
 
 .jumbotron-comics {
   background-image: url("../img/jumbotron.jpg");
@@ -286,9 +292,16 @@ body {
   padding-top: 20px;
   padding-bottom: 80px;
 }
+#site_main .artists h3 {
+  text-align: left;
+  margin-bottom: 30px;
+}
 #site_main .artists .border_tp {
   border-top: 1px solid lightgray;
   border-bottom: 1px solid lightgray;
+  padding: 10px 0;
+  font-size: 11px;
+  display: flex;
 }
 #site_main .digital_shop {
   background-color: #F6F6F6;

@@ -29,7 +29,7 @@
                     </ul>
 
                    
-                    <input type="search" name="" id="search_ip" placeholder="Search">
+                    <input type="search" name="" id="search_ip" placeholder="Search "><i class="fa fa-search"></i>
                 </nav>
                
                 
