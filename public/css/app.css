@@ -115,7 +115,7 @@ body {
   margin: 0.5rem;
   color: white;
 }
-#site_main .comics .comic_cards img {
+#site_main .comics .comic_cards .img_index {
   width: 100%;
   height: 100%;
   -o-object-fit: contain;
@@ -239,17 +239,54 @@ body {
 #site_main .bg_brand {
   background-color: #0282F9;
   height: 40px;
-}
-#site_main .show_bg {
-  background-color: white;
-}
-#site_main .comic_card_show {
   position: relative;
 }
-#site_main .comic_card_show h2, #site_main .comic_card_show p {
+#site_main .comic_description {
+  background-color: white;
+}
+#site_main .comic_description .comic_card_show h2, #site_main .comic_description .comic_card_show p {
   color: black;
 }
-#site_main .comic_card_show .img_show {
+#site_main .comic_description .comic_card_show .img_show {
   position: absolute;
-  bottom: 68px;
+  top: 243px;
+}
+#site_main .comic_description .comic_card_show h2 {
+  margin-top: 40px;
+  margin-bottom: 15px;
+}
+#site_main .comic_description .comic_card_show .price {
+  border: 1px solid #55BA59;
+  background-color: #55BA59;
+  color: white;
+  padding: 10px;
+  margin: 15px 0;
+}
+#site_main .comic_description .comic_card_show .desc {
+  color: black;
+  line-height: 20px;
+  font-size: 12px;
+  margin-bottom: 40px;
+}
+#site_main .comic_description .comic_card_show .container_comic_description {
+  display: flex;
+  align-items: center;
+}
+#site_main .comic_description .comic_card_show .container_comic_description .adv_img {
+  height: 144px;
+  width: 144px;
+}
+#site_main .artists {
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+  background-color: #F6F6F6;
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+  padding-top: 20px;
+  padding-bottom: 80px;
+}
+#site_main .artists .border_tp {
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
 }

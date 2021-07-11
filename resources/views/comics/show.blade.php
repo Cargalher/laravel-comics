@@ -10,19 +10,28 @@
 
 @section('content')
 
-<div class="show_bg">
+<div class="comic_description">
     <div class="bg_brand">
 
     </div>
     <section class="container bg_comics">
     <div class="comics">
         
-        <div class="comic_cards comic_card_show">
+        <div class="comic_card_show">
+
             <img src="{{$comic['thumb'] }}" alt="" class="img_show">
-            <h2>{{$comic['title']}}</h2>
+
+            <div class="container_comic_description">
+                <div class="left_description">
+                    <h2>{{$comic['title']}}</h2>
+                    <p class="price">US.Price: $ {{$comic['price']}} </p>
+                    <p class="desc"> {{$comic['description']}}</p>
+                </div>
+                <div class="img_description">
+                    <img src="{{asset('img/adv.jpg')}}" alt="logo" class="adv_img">
+                </div>
+            </div>
             
-           <p>US.Price: $ {{$comic['price']}} </p>
-           <p> {{$comic['description']}}</p>
 
 
         </div>
@@ -30,8 +39,19 @@
     
  
 </section>
-
-
+<div class="artists">
+        <div class="talent">
+            <h3>Talent</h3>
+            <div class="border_tp">Art by: </div> 
+            <div  class="border_tp">Writen by: </div>
+        </div>  
+        <div class="specs">
+            <h3>Specs</h3>
+            <div class="border_tp">Series: <span>{{$comic['series']}}</span></div> 
+            <div  class="border_tp">US.Price: <span>{{$comic['price']}}</span></div>
+            <div class="border_tp">On Sale Date: <span>{{$comic['sale_date']}}</span></div>
+        </div>  
+        
 </div>
 
 

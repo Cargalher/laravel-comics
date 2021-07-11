@@ -2,21 +2,66 @@
     .bg_brand{
         background-color: $brand-color;
         height: 40px;
+        position: relative;
     }
-    .show_bg{
+    .comic_description{
         background-color: white;
         
-    }
-    .comic_card_show{
-        position: relative;
-        h2, p{
-            color:black;
+    
+        .comic_card_show{
+            
+            h2, p{
+                color:black;
+            }
+            .img_show{
+                position: absolute;
+                top: 243px;
+                
+                
+            }
+            h2{
+                margin-top:40px;
+                margin-bottom: 15px;
+            }
+            .price{
+            border: 1px solid $bg_green;
+            background-color: $bg_green;
+            color: white;
+            padding: 10px;
+            margin: 15px 0;
+            }
+            .desc{
+                color: black;
+                line-height: 20px;
+                font-size: 12px;
+                margin-bottom: 40px;
+            }
+            .container_comic_description{
+                display: flex;
+                align-items: center;
+                .adv_img{
+                    height: 144px;
+                    width: 144px;
+                }
+                    
+                    
+                    
+                    
+            }
         }
-        .img_show{
-            position: absolute;
-            bottom: 68px;
-            
-            
+    }
+    .artists{
+        border-top:1px solid gray;
+        border-bottom:1px solid gray;
+        background-color:$bg_gray;
+        display: flex;
+        text-align: center;
+        justify-content: space-around;
+        padding-top:20px;
+        padding-bottom:80px;
+        .border_tp{
+            border-top:1px solid gray;
+            border-bottom:1px solid gray;
         }
     }
     
