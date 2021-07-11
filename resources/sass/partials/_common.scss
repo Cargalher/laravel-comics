@@ -6,7 +6,12 @@
 body{
     font-family: sans-serif;
 }
+// utilityclasses
 .container{
     width: 80%;
     margin: auto;
+}
+.active{
+    color: $brand-color;
+    border-bottom: 5px solid $brand-color;
 }

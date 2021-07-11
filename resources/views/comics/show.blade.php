@@ -2,6 +2,12 @@
 
 @section('title', 'Comic Page DC Comics')
 
+@section('jumbotron-comics')
+    <div class="jumbotron-comics">
+    
+    </div>
+@endsection
+
 @section('content')
 
 
