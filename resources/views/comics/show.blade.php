@@ -42,8 +42,8 @@
 <div class="artists">
         <div class="talent">
             <h3>Talent</h3>
-            <div class="border_tp">Art by: </div> 
-            <div  class="border_tp">Writen by: </div>
+            <div class="border_tp">Art by: Artist Name from database </div> 
+            <div  class="border_tp">Writen by: Writers from database </div>
         </div>  
         <div class="specs">
             <h3>Specs</h3>
@@ -52,6 +52,12 @@
             <div class="border_tp">On Sale Date: <span>{{$comic['sale_date']}}</span></div>
         </div>  
         
+</div>
+<div class="digital_shop">
+    <div class="side_border">Digital comics</div>
+    <div class="side_border">Shop DC</div>
+    <div class="side_border">Comic shop locator</div>
+    <div class="side_border">Subscriptions</div>
 </div>
 
 

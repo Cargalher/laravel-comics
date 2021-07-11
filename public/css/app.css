@@ -277,8 +277,8 @@ body {
   width: 144px;
 }
 #site_main .artists {
-  border-top: 1px solid gray;
-  border-bottom: 1px solid gray;
+  border-top: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
   background-color: #F6F6F6;
   display: flex;
   text-align: center;
@@ -287,6 +287,27 @@ body {
   padding-bottom: 80px;
 }
 #site_main .artists .border_tp {
-  border-top: 1px solid gray;
-  border-bottom: 1px solid gray;
+  border-top: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+}
+#site_main .digital_shop {
+  background-color: #F6F6F6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#site_main .digital_shop .side_border {
+  border-left: 1px solid lightgray;
+  border-right: 1px solid lightgray;
+  padding: 20px;
+  color: gray;
+}
+#site_main .digital_shop .side_border .shop_img {
+  height: 20px;
+  display: flex;
+  color: gray;
+  display: flex;
+}
+#site_main .digital_shop .cta-icons {
+  color: red;
 }

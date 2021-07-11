@@ -51,8 +51,8 @@
         }
     }
     .artists{
-        border-top:1px solid gray;
-        border-bottom:1px solid gray;
+        border-top:1px solid lightgray;
+        border-bottom:1px solid lightgray;
         background-color:$bg_gray;
         display: flex;
         text-align: center;
@@ -60,8 +60,31 @@
         padding-top:20px;
         padding-bottom:80px;
         .border_tp{
-            border-top:1px solid gray;
-            border-bottom:1px solid gray;
+            border-top:1px solid lightgray;
+            border-bottom:1px solid lightgray;
+        }
+    }
+    .digital_shop{
+        background-color:$bg_gray;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+       
+        .side_border{
+            border-left:1px solid lightgray;
+            border-right:1px solid lightgray;
+            padding: 20px;
+            color: gray;
+            .shop_img{
+                height: 20px;
+                display: flex;
+                color: gray;
+                display: flex;
+            }
+           
+        }
+        .cta-icons{
+            color: red;
         }
     }
     
