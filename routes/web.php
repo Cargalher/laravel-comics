@@ -75,10 +75,6 @@ Route::get('/games', function () {
     return view('games');  
      })->name('games');
 
-Route::get('/collectibles', function () {
-       
-    return view('collectibles');  
-    })->name('collectibles');
 
 Route::get('/videos', function () {
        

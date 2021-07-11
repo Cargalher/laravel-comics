@@ -21,21 +21,20 @@
                         <li> <a href="{{ route('movies') }}" class="{{ Route::currentRouteName() === 'movies' ? 'active' : '' }}">Movies</a></li>
                         <li><a href="{{ route('tv') }}" class="{{ Route::currentRouteName() === 'tv' ? 'active' : '' }}">TV</a></li>
                         <li><a href="{{ route('games') }}" class="{{ Route::currentRouteName() === 'games' ? 'active' : '' }}">Games</a></li>
-                        <li><a href="{{ route('collectibles') }}" class="{{ Route::currentRouteName() === 'collectibles' ? 'active' : '' }}">Collectibles</a></li>
                         <li><a href="{{ route('videos') }}" class="{{ Route::currentRouteName() === 'videos' ? 'active' : '' }}">Videos</a></li>
                         <li><a href="{{ route('fans') }}" class="{{ Route::currentRouteName() === 'fans' ? 'active' : '' }}">Fans</a></li>
                         <li><a href="{{ route('news') }}" class="{{ Route::currentRouteName() === 'news' ? 'active' : '' }}">News</a></li>
                         <li><a href="{{ route('shop') }}" class="{{ Route::currentRouteName() === 'shop' ? 'active' : '' }}">Shop <i class="fas fa-sort-down"></i></a></li>
-                        <li><input type="search" name="" id="search_ip" placeholder="Search"></li>
+                        
                     </ul>
-        
+
+                   
+                    <input type="search" name="" id="search_ip" placeholder="Search">
                 </nav>
                
                 
             </div>        
-            <!-- <div class="jumbotron" style="height:460px;">
-    
-            </div> -->
+          
            
         </header>
         @yield('jumbotron-comics')
