@@ -36,7 +36,7 @@
                         <p class="desc"> {{$comic['description']}}</p>
                     </div>
                     <div class="img_description">
-                        <span style="text-transform: uppercase; align-text:right;">Advertisement</span>
+                        <span>Advertisement</span>
                         <img src="{{asset('img/adv.jpg')}}" alt="logo" class="adv_img">
                     </div>
                 </div>
