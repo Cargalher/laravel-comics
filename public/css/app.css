@@ -242,41 +242,43 @@ body {
   padding: 3px;
 }
 
-#site_main .bg_brand {
+#site_main .comic_description {
+  background-color: white;
+}
+#site_main .comic_description .bg_brand {
   background-color: #0282F9;
   height: 40px;
   position: relative;
 }
-#site_main .comic_description {
-  background-color: white;
+#site_main .comic_description .comic_card_show .container_comic_description {
+  display: flex;
+  align-items: center;
 }
-#site_main .comic_description .comic_card_show h2, #site_main .comic_description .comic_card_show p {
+#site_main .comic_description .comic_card_show .container_comic_description .left_description h2, #site_main .comic_description .comic_card_show .container_comic_description .left_description p {
   color: black;
 }
-#site_main .comic_description .comic_card_show .img_show {
+#site_main .comic_description .comic_card_show .container_comic_description .left_description .img_show {
   position: absolute;
   top: 243px;
 }
-#site_main .comic_description .comic_card_show h2 {
+#site_main .comic_description .comic_card_show .container_comic_description .left_description h2 {
   margin-top: 40px;
   margin-bottom: 15px;
 }
-#site_main .comic_description .comic_card_show .price {
+#site_main .comic_description .comic_card_show .container_comic_description .left_description .price {
   border: 1px solid #55BA59;
   background-color: #55BA59;
   color: white;
   padding: 10px;
   margin: 15px 0;
+  display: flex;
+  justify-content: space-between;
 }
-#site_main .comic_description .comic_card_show .desc {
+#site_main .comic_description .comic_card_show .container_comic_description .left_description .desc {
   color: black;
   line-height: 20px;
   font-size: 12px;
   margin-bottom: 40px;
-}
-#site_main .comic_description .comic_card_show .container_comic_description {
-  display: flex;
-  align-items: center;
 }
 #site_main .comic_description .comic_card_show .container_comic_description .adv_img {
   height: 144px;

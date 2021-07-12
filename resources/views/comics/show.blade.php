@@ -24,7 +24,15 @@
             <div class="container_comic_description">
                 <div class="left_description">
                     <h2>{{$comic['title']}}</h2>
-                    <p class="price">US.Price: $ {{$comic['price']}} </p>
+                    <div>
+                        <p 
+                        class="price">US.Price: $ {{$comic['price']}}
+                        <span>Available</span>
+                        <span>Check Availibility</span>
+                    </p>
+                        
+                    </div>
+                    
                     <p class="desc"> {{$comic['description']}}</p>
                 </div>
                 <div class="img_description">
@@ -42,7 +50,20 @@
 <div class="artists">
         <div class="talent">
             <h3>Talent</h3>
-            <div class="border_tp">Art by: <p style="color:#0282F9">Artist Name from database</p>  </div> 
+            <div class="border_tp">Art by:
+                 <p style="color:#0282F9">
+                
+                
+                @if($comic['artists'])
+                @forelse($comic['artists'] as $artist)
+                <a href="#">{{$artist}}</a>
+                @empty
+                <a href="#">No artists to show</a>
+                @endforelse
+                @endif
+                </p>  
+            
+        </div> 
             <div  class="border_tp">Writen by:<p style="color:#0282F9"> Writers from database</p>  </div>
         </div>  
         <div class="specs">

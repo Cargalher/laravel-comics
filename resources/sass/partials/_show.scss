@@ -1,55 +1,61 @@
 #site_main{
-    .bg_brand{
-        background-color: $brand-color;
-        height: 40px;
-        position: relative;
-    }
+    
     .comic_description{
-        background-color: white;
+         background-color: white;
+        .bg_brand{
+            background-color: $brand-color;
+            height: 40px;
+            position: relative;
+        }
+       
         
     
         .comic_card_show{
-            
-            h2, p{
-                color:black;
-            }
-            .img_show{
-                position: absolute;
-                top: 243px;
-                
-                
-            }
-            h2{
-                margin-top:40px;
-                margin-bottom: 15px;
-            }
-            .price{
-            border: 1px solid $bg_green;
-            background-color: $bg_green;
-            color: white;
-            padding: 10px;
-            margin: 15px 0;
-            }
-            .desc{
-                color: black;
-                line-height: 20px;
-                font-size: 12px;
-                margin-bottom: 40px;
-            }
             .container_comic_description{
                 display: flex;
                 align-items: center;
+                
+                    
+                .left_description{
+                        h2, p{
+                        color:black;
+                    }
+                    .img_show{
+                        position: absolute;
+                        top: 243px;
+                        
+                        
+                    }
+                    h2{
+                        margin-top:40px;
+                        margin-bottom: 15px;
+                    }
+                    .price{
+                        border: 1px solid $bg_green;
+                        background-color: $bg_green;
+                        color: white;
+                        padding: 10px;
+                        margin: 15px 0;
+                        display: flex;
+                        justify-content: space-between;
+                    }
+                
+                    .desc{
+                        color: black;
+                        line-height: 20px;
+                        font-size: 12px;
+                        margin-bottom: 40px;
+                    }
+                } 
                 .adv_img{
                     height: 144px;
                     width: 144px;
-                }
-                    
-                    
-                    
+                }     
                     
             }
-        }
+        }    
     }
+   
     .artists{
         border-top:1px solid lightgray;
         border-bottom:1px solid lightgray;
