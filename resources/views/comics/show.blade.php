@@ -51,12 +51,12 @@
         <div class="talent">
             <h3>Talent</h3>
             <div class="border_tp">Art by:
-                 <p style="color:#0282F9">
+                 <p>
                 
                 
                 @if($comic['artists'])
                 @forelse($comic['artists'] as $artist)
-                <a href="#">{{$artist}}</a>
+                <a href="#" style="color:#0282F9;text-decoration:none">{{$artist}}</a>
                 @empty
                 <a href="#">No artists to show</a>
                 @endforelse
@@ -66,11 +66,11 @@
             </div> 
 
             <div  class="border_tp">Writen by:
-                <p style="color:#0282F9">
+                <p>
                      
                 @if($comic['writers'])
                 @forelse($comic['writers'] as $writer)
-                <a href="#">{{$writer}}</a>
+                <a href="#" style="color:#0282F9;text-decoration:none">{{$writer}}</a>
                 @empty
                 <a href="#">No writers to show</a>
                 @endforelse
