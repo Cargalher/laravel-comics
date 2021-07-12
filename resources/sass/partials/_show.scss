@@ -5,57 +5,76 @@
         .bg_brand{
             background-color: $brand-color;
             height: 40px;
-            position: relative;
+            
+            .img_show{
+                position: absolute;
+                left: 314px;
+                top: 228px;
+                        
+            }
         }
        
         
-    
-        .comic_card_show{
-            .container_comic_description{
-                display: flex;
-                align-items: center;
-                
+        .container_dimension{
+            display: flex;
+            justify-content: space-between;
+            width: 50%;
+            margin: auto;
+            position: relative;
+            .comic_card_show{
+                .container_comic_description{
+                    display: flex;
+                    align-items: center;
                     
-                .left_description{
-                        h2, p{
-                        color:black;
-                    }
-                    .img_show{
-                        position: absolute;
-                        top: 243px;
                         
+                    .left_description{
+                            h2, p{
+                            color:black;
+                        }
                         
-                    }
-                    h2{
-                        margin-top:40px;
-                        margin-bottom: 15px;
-                    }
-                    .price{
-                        border: 1px solid $bg_green;
-                        background-color: $bg_green;
-                        color: white;
-                        padding: 10px;
-                        margin: 15px 0;
-                        display: flex;
-                        justify-content: space-between;
-                    }
-                
-                    .desc{
-                        color: black;
-                        line-height: 20px;
-                        font-size: 12px;
-                        margin-bottom: 40px;
-                    }
-                } 
-                .adv_img{
-                    height: 144px;
-                    width: 144px;
-                }     
+                        h2{
+                            margin-top:40px;
+                            margin-bottom: 15px;
+                        }
+                        .price{
+                            border: 1px solid $bg_green;
+                            background-color: $bg_green;
+                            color: white;
+                            padding: 10px;
+                            margin: 15px 0;
+                            display: flex;
+                            justify-content: space-between;
+                        }
                     
-            }
-        }    
+                        .desc{
+                            color: black;
+                            line-height: 20px;
+                            font-size: 12px;
+                            margin-bottom: 40px;
+                        }
+                    } 
+                    .img_description{
+                        span{
+                            text-transform: uppercase;
+                            display: flex;
+                            justify-content: flex-end;
+                            font-size: 8px;
+                            font-weight: 700;
+                            padding-bottom: 3px;
+                        }
+                        .adv_img{
+                        height: 144px;
+                        width: 144px;
+                        margin-left: 51px;
+                    }    
+                    }
+                     
+                        
+                }
+            }  
+          
     }
-   
+}
     .artists{
         border-top:1px solid lightgray;
         border-bottom:1px solid lightgray;
@@ -65,19 +84,39 @@
         justify-content: space-around;
         padding-top:20px;
         padding-bottom:80px;
+        .talent{
+            width: 40%;
+             h3{
+            text-align: left;
+            margin-bottom: 30px;
+            }
+            .border_tp{
+                border-top:1px solid lightgray;
+                border-bottom:1px solid lightgray;
+                padding: 10px 0;
+                font-size: 11px;
+                display: flex;
+                justify-content: space-between;
+            
+            }
+        }
+       .specs{
+        width: 40%;
+        margin-left: 10%;
         h3{
             text-align: left;
             margin-bottom: 30px;
-        }
-        .border_tp{
-            border-top:1px solid lightgray;
-            border-bottom:1px solid lightgray;
-            padding: 10px 0;
-            font-size: 11px;
-            display: flex;
+            }
+            .border_tp{
+                border-top:1px solid lightgray;
+                border-bottom:1px solid lightgray;
+                padding: 10px 0;
+                font-size: 11px;
+                display: flex;
+                justify-content: space-between;
             
-            
-        }
+            }
+       }
     }
     .digital_shop{
         background-color:$bg_gray;
