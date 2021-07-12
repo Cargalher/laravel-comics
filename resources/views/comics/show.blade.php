@@ -63,9 +63,23 @@
                 @endif
                 </p>  
             
-        </div> 
-            <div  class="border_tp">Writen by:<p style="color:#0282F9"> Writers from database</p>  </div>
+            </div> 
+
+            <div  class="border_tp">Writen by:
+                <p style="color:#0282F9">
+                     
+                @if($comic['writers'])
+                @forelse($comic['writers'] as $writer)
+                <a href="#">{{$writer}}</a>
+                @empty
+                <a href="#">No writers to show</a>
+                @endforelse
+                @endif
+                </p>  
+                </p> 
+            </div>
         </div>  
+
         <div class="specs">
             <h3>Specs</h3>
             <div class="border_tp">Series: <span style="color: #0282F9; text-transform:uppercase">{{$comic['series']}}</span></div> 
